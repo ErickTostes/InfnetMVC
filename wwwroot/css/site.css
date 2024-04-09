@@ -1,0 +1,53 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+body {
+    background-color: #333;
+    color: #fff; /* Cor do texto */
+}
+
+table {
+    font-family: Arial, sans-serif; /* Define a fonte para toda a tabela */
+    border-collapse: collapse; /* Une as bordas das células */
+    width: 100%; /* Define a largura da tabela como 100% da largura do contêiner */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Adiciona uma borda de 1px sólida com cor cinza claro */
+    padding: 8px; /* Adiciona espaço interno de 8 pixels para as células */
+}
+
+th {
+    background-color: #f2f2f2; /* Define uma cor de fundo cinza claro para os cabeçalhos das colunas */
+    color: #fff; /* Define a cor da fonte dos cabeçalhos das colunas */
+}
+
+td {
+    background-color: #fff; /* Define uma cor de fundo branca para as células de dados */
+    color: #fff; /* Define a cor da fonte das células de dados */
+}
+
+/* Estilos para linhas alternadas */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Define uma cor de fundo cinza claro para as linhas pares */
+}
